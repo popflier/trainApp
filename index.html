@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+   <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+
+<body>
+    <div class="container">     
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                  <h1 class="display-3">Employee Data Management</h1>
+              </div> <!--col-md-12-->
+          </div><!--row-->
+        </div>
+        <div class="row">
+            <div class="col-md-12 currentEmployees">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>Employee Name</th>
+                      <th>Role</th>
+                      <th>Start Date</th>
+                      <th>Months Worked</th>
+                       <th>Monthly Rate ($)</th>
+                      <th>Total Billed ($)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td id="employee"></td>
+                      <td id="role"></td>
+                      <td id="startDate"></td>
+                      <td id="monthsWorked"></td>
+                      <td id="monthlyRate"></td>
+                      <td id="totalBilled"></td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div><!--col-md-12-->
+        </div><!--row-->
+        <div class="row">
+            <div class="col-md-12 form">
+                <form>
+                  <div class="form-group">
+                    <label>Employee Name</label>
+                    <input type="text" class="form-control" id="employeeForm" placeholder="Enter Your Name">
+                  </div>
+                  <div class="form-group">
+                    <label>Roled</label>
+                    <input type="text" class="form-control" id="roleForm" placeholder="What is your role?">
+                  </div>
+                  <div class="form-group">
+                    <label>Start Date mm/dd/yy</label>
+                    <input type="text" class="form-control" id="startForm" placeholder="What is your start date?">
+                  </div>
+                  <div class="form-group">
+                    <label>Your Monthly Rate</label>
+                    <input type="text" class="form-control" id="rateForm" placeholder="What is your rate?">
+                  </div>
+                  <button type="submit" id="formSubmit" class="btn btn-primary">Submit</button>
+                </form>
+            </div><!--col-md-12-->
+        </div><!--row-->
+    </div>
+    <!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
